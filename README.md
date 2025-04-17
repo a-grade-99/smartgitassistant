@@ -1,7 +1,9 @@
 # 📦 SmartGit Assistant
 
 ✨ The Smartest Way to Commit and Push on GitHub — with AI-like Suggestions and a Polished CLI!
+
 🚀 Features
+
 🔍 Auto-detects if there are Git changes.
 
 📦 Stages all changes safely.
@@ -25,9 +27,13 @@ npm install -g smartgitassistant
 ### Or if you are developing locally:
 
 git clone https://github.com/a-grade-99/smartgitassistant
+
 cd smartgitassistant
+
 npm install
+
 npm link
+
 ✅ Now you can run it from anywhere inside a git repo:
 
 smartgit
@@ -35,16 +41,27 @@ smartgit
 Terminal usage preview
 
 🔍 Checking for changes...
+
 📝 Current Git Status:
+
 ✨ Stage all changes?
+
 📦 Staging changes...
+
 💡 Suggested commit message:
+
 "feat: implement authentication system"
+
 📝 Edit commit message (or press Enter to accept):
+
 ✅ Files staged for commit:
+
 ✅ Final commit message:
+
 🚀 Ready to commit and push?
+
 📤 Committing and pushing...
+
 ✅ Successfully committed and pushed! 🎉
 
 ## ⚙️ Usage
