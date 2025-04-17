@@ -142,7 +142,7 @@ async function main() {
   const suggestedMessage = smartCommitSuggestion(stagedFiles);
 
   console.log(chalk.green("\n💡 Suggested commit message:"));
-  console.log(chalk.yellow(`\n"${suggestedMessage}"\n`));
+  console.log(chalk.yellow(`\n"${suggestedMessage}"\n\n`));
 
   const { finalMessage } = await inquirer.prompt({
     type: "input",
