@@ -70,7 +70,7 @@ async function main() {
     .filter((file) => file.length > 0);
 
   changedFiles.forEach((file) => {
-    console.log(chalk.yellow(`• ${file}`));
+    console.log(chalk.yellow(`• ${file}\n`));
   });
 
   const { stage } = await inquirer.prompt({
@@ -142,7 +142,7 @@ async function main() {
   const suggestedMessage = smartCommitSuggestion(stagedFiles);
 
   console.log(chalk.green("\n💡 Suggested commit message:"));
-  console.log(chalk.yellow(`\n"${suggestedMessage}"\n\n`));
+  console.log(chalk.yellow(`\n"${suggestedMessage}"\n`));
 
   const { finalMessage } = await inquirer.prompt({
     type: "input",
@@ -157,7 +157,7 @@ async function main() {
   console.log(runCommand("git diff --cached --name-only"));
 
   console.log(chalk.green("\n✅ Final commit message:\n"));
-  console.log(chalk.yellow(`"${finalMessage}"`));
+  console.log(chalk.yellow(`"${finalMessage}\n"`));
 
   const { confirm } = await inquirer.prompt({
     type: "confirm",
