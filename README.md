@@ -47,7 +47,7 @@ Terminal usage preview
 📤 Committing and pushing...
 ✅ Successfully committed and pushed! 🎉
 
-##⚙️ Usage
+## ⚙️ Usage
 
 Just type:
 
