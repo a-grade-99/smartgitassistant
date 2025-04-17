@@ -1,13 +1,15 @@
 {
   "name": "smartgitassistant",
   "version": "1.0.0",
-  "description": "Smart Git Assistant for automating git tasks",
+  "description": "Smart Git Assistant CLI tool to improve git flow",
   "main": "bin/smartgit.js",
   "bin": {
-    "smartgit": "./bin/smartgit.js"
+    "smartgit": "./smartgit.js"
   },
   "type": "module",
-  "scripts": {},
+  "scripts": {
+    "start": "node smartgit.js"
+  },
   "keywords": [
     "git",
     "cli",

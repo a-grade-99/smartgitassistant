@@ -63,11 +63,17 @@ async function main() {
     process.exit(0);
   }
 
-  console.log(chalk.blue("\n📝 Files with changes:\n"));
+  const loadingFiles = ora("🔍 Loading changed files...").start();
+  await new Promise((resolve) => setTimeout(resolve, 500));
+
   const changedFiles = runCommand("git status --porcelain")
     .split("\n")
     .map((line) => line.trim().slice(2))
     .filter((file) => file.length > 0);
+
+  loadingFiles.succeed("✅ Files loaded successfully!\n");
+
+  console.log(chalk.blue("📝 Files with changes:\n"));
 
   changedFiles.forEach((file) => {
     console.log(chalk.yellow(`• ${file}\n`));
