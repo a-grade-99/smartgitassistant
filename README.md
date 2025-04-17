@@ -34,11 +34,9 @@ npm install
 
 npm link
 
-✅ Now you can run it from anywhere inside a git repo:
+✅ Now you can run it from anywhere inside a git repo!
 
-smartgit
-📸 Preview
-Terminal usage preview
+### 📸 Preview Terminal usage preview
 
 🔍 Checking for changes...
 
