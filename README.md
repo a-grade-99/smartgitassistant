@@ -27,7 +27,7 @@ Or if you are developing locally:
 bash
 Copiar
 Editar
-git clone https://github.com/your-username/smartgitassistant.git
+git clone https://github.com/your-username/smartgitassistant
 cd smartgitassistant
 npm install
 npm link
@@ -87,4 +87,4 @@ Sit back and relax 😎
 
 📜 License
 MIT License.
-Made with ❤️ by [your-name].
+Made with ❤️ by André G.

@@ -63,8 +63,15 @@ async function main() {
     process.exit(0);
   }
 
-  console.log(chalk.blue("\n📝 Current Git Status:\n"));
-  console.log(runCommand("git status"));
+  console.log(chalk.blue("\n📝 Files with changes:\n"));
+  const changedFiles = runCommand("git status --porcelain")
+    .split("\n")
+    .map((line) => line.trim().slice(2))
+    .filter((file) => file.length > 0);
+
+  changedFiles.forEach((file) => {
+    console.log(chalk.yellow(`• ${file}`));
+  });
 
   const { stage } = await inquirer.prompt({
     type: "confirm",
