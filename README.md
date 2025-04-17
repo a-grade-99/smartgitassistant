@@ -22,7 +22,7 @@
 
 ### First, install globally:
 
-npm install -g smartgitassistant
+npm install -g smartgit
 
 ### Or if you are developing locally:
 
@@ -33,6 +33,8 @@ cd smartgitassistant
 npm install
 
 npm link
+
+smartgit
 
 ✅ Now you can run it from anywhere inside a git repo!
 
