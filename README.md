@@ -1,4 +1,5 @@
-📦 SmartGit Assistant
+# 📦 SmartGit Assistant
+
 ✨ The Smartest Way to Commit and Push on GitHub — with AI-like Suggestions and a Polished CLI!
 🚀 Features
 🔍 Auto-detects if there are Git changes.
@@ -15,34 +16,24 @@
 
 🛡️ Protects your main branch by warning you before committing!
 
-🛠️ Installation
-First, install globally:
+## 🛠️ Installation
 
-bash
-Copiar
-Editar
+### First, install globally:
+
 npm install -g smartgitassistant
-Or if you are developing locally:
 
-bash
-Copiar
-Editar
-git clone https://github.com/your-username/smartgitassistant
+### Or if you are developing locally:
+
+git clone https://github.com/a-grade-99/smartgitassistant
 cd smartgitassistant
 npm install
 npm link
 ✅ Now you can run it from anywhere inside a git repo:
 
-bash
-Copiar
-Editar
 smartgit
 📸 Preview
 Terminal usage preview
 
-sql
-Copiar
-Editar
 🔍 Checking for changes...
 📝 Current Git Status:
 ✨ Stage all changes?
@@ -55,12 +46,11 @@ Editar
 🚀 Ready to commit and push?
 📤 Committing and pushing...
 ✅ Successfully committed and pushed! 🎉
-⚙️ Usage
+
+##⚙️ Usage
+
 Just type:
 
-bash
-Copiar
-Editar
 smartgit
 👉 Follow the prompts:
 
@@ -76,15 +66,15 @@ Confirm push
 
 Sit back and relax 😎
 
-🧠 Future Plans
+## 🧠 Future Plans
+
 🤖 Real AI-generated commit messages (via ChatGPT API)
 
 📈 Smarter branch detection
 
-🌈 Fancy loading animations
-
 📚 Customizable config files
 
-📜 License
+## 📜 License
+
 MIT License.
 Made with ❤️ by André G.
